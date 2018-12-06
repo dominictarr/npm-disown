@@ -1,0 +1,19 @@
+{
+  "name": "npm-disown",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dominictarr/npm-disown",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/npm-disown.git"
+  },
+  "dependencies": {
+    "pull-stream": "^3.6.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"
+}
